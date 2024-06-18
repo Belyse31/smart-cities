@@ -1,0 +1,161 @@
+body { 
+  background-color: rgb(233, 241, 241);
+}
+
+#nav li { 
+  display: inline;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  margin-left: 150px; 
+  text-decoration: none; 
+}
+
+.btn {
+  color: rgb(255, 255, 255);
+  font-size: 20px; 
+}
+
+a {
+  text-decoration: none;
+  color: rgb(162, 221, 191); 
+}
+
+.container {
+  display: flex;
+  flex-wrap: wrap;
+  text-align: right;
+}
+
+.image {
+  flex: 1;
+}
+
+.image img {
+  max-width: 50%;
+  height: auto;
+}
+.content {
+  flex: 1;
+  padding: 0 20px;
+  margin-left: 40rem;
+  position: relative;
+  top: -10rem;
+}
+
+@media (max-width: 768px) {
+  .container {
+    flex-direction: column;
+  }
+
+  .content {
+    padding: 20px 0;
+    margin-left: 0; 
+    text-align: center; 
+    top: initial; 
+  }
+}
+
+.uno img {
+  height: 1cm;
+  width: 3cm;
+  margin-top: 30px;
+}
+
+.header { 
+  display: flex; 
+  justify-content: space-between; 
+  align-items: center; 
+  padding: 20px; 
+}
+
+.logo { 
+  text-decoration: none; 
+  font-size: 40px; 
+  color: black; 
+}
+
+.navbar { 
+  display: flex; 
+}
+
+.navbar a { 
+  text-decoration: none; 
+  margin: 0 10px; 
+  color: black; 
+}
+
+.navbar a.active { 
+  font-weight: bold; 
+}
+
+li a {
+  display: inline; 
+}
+.footer {
+  display: block; 
+  background-color: rgb(78, 77, 77); 
+  color: white; 
+  padding: 20px; 
+  text-align: center; 
+}
+
+.footer a {
+  color: white; 
+  text-decoration: none; 
+}
+
+.footer a:hover {
+  text-decoration: underline; 
+}
+
+.footer .box-container {
+  display: flex;
+  justify-content: space-around; 
+}
+
+.footer .box {
+  flex: 1; 
+  padding: 10px; 
+}
+
+.footer h3 {
+  font-size: 18px; 
+}
+
+.footer .credit {
+  font-size: 14px; 
+}
+
+
+h6 {
+  margin-left: 30px;
+}
+
+.service img {
+  max-width: 100%; 
+}
+
+.service {
+  text-align: center;
+}
+
+td {
+  border: 2px solid rgb(211, 210, 210); 
+  border-radius: 12px; 
+  justify-content: space-between; 
+  box-shadow: 5px 5px 15px rgba(0, 0, 0, 0.3);
+}
+
+@media only screen and (max-width: 480px) {
+    nav {
+        padding: 10px 5px;
+        font-size: 20px;
+    }
+
+    h1 {
+        font-size: 1.0em;
+    }
+
+    p {
+        font-size: 0.7em;
+    }
+  }
